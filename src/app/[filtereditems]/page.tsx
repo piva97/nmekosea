@@ -26,7 +26,7 @@ interface Product {
   reviews: any[]; // Update with the actual type of reviews if available
 }
 
-export default function Home() {
+export default function Home(){
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <HomeContent />
@@ -62,7 +62,7 @@ function HomeContent() {
           style={{
             height: "100vh",
             padding: "2rem",
-            paddingTop: "10rem",
+            paddingTop: "15rem",
             paddingBottom: "10rem",
             marginBottom: "10rem",
           }}

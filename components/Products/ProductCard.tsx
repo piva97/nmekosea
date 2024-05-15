@@ -48,7 +48,7 @@ const ProductsCard: React.FC<DataProps> = ({ data }) => {
       <div>
         <Rating value={4} readOnly />
       </div>
-      <button onClick={handleProductClick}>Select Product</button>
+      <button className="btn btn-active btn-neutral" onClick={handleProductClick}>Select Product</button>
     </div>
   );
 };

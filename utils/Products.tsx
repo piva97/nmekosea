@@ -3,19 +3,19 @@
 export const Products = [
   {
     id: "64a4e9e77e729907833401a3",
-    name: "Samsung Galaxy A05",
+    name: "CANCER AND TUMOUR GROWTH",
     description:
       "RAM: 4GB\nInternal Storage: 64GB\nBattery: 5000 mAh\nMain camera: 50 MP + 2 MP+ 2 MP\nFront camera: 13 MP\nDisplay: 6.7 inch,\n",
     price: 4500.00,
-    brand: "Samsung",
-    category: "Phones",
+    brand: "Laikipia",
+    category: "Herbal Tea",
     inStock: true,
     images: [
       {
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/a05s2.png?alt=media&token=f75aaf1e-a72f-4802-9dda-f6c4edda12ad",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic3.png?alt=media&token=cbc1c71f-bf25-4029-8d5a-31d025a957d6",
       },
     ],
     daily: 100,
@@ -35,19 +35,19 @@ export const Products = [
   },
   {
     id: "64a4e9e77e72991107833401a3",
-    name: "Samsung Galaxy A05",
+    name: "HYPERTENSION AND DIABETES",
     description:
       "RAM: 4GB\nInternal Storage: 128GB\nBattery: 5000 mAh\nMain camera: 50 MP + 2 MP+ 2 MP\nFront camera: 13 MP\nDisplay: 6.7 inch,\n",
     price: 5000.00,
-    brand: "Samsung",
-    category: "Phones",
+    brand: "laikipia",
+    category: "Herbal Tea",
     inStock: true,
     images: [
       {
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/a05s2.png?alt=media&token=f75aaf1e-a72f-4802-9dda-f6c4edda12ad",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic2.png?alt=media&token=65e6e263-4fc8-49db-a7fb-308c281163b9",
       },
     ],
     daily: 100,
@@ -67,19 +67,19 @@ export const Products = [
   },
   {
     id: "64a4e9e77e729977833401a3",
-    name: "Samsung Galaxy A05s",
+    name: "JOINTS AND BONE STRENGTH",
     description:
       "RAM: 4GB\nInternal Storage: 128GB\nBattery: 5000 mAh\nMain camera: 50 MP + 2 MP+ 2 MP\nFront camera: 13 MP\nDisplay: 6.7 inch,\n",
     price: 5500.00,
-    brand: "Samsung",
-    category: "Phones",
+    brand: "laikipia",
+    category: "Herbs",
     inStock: true,
     images: [
       {
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/a05s2.png?alt=media&token=f75aaf1e-a72f-4802-9dda-f6c4edda12ad",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic1.png?alt=media&token=a7464596-ce3b-41f4-99b5-2f25b4624886",
       },
     ],
     daily: 123,
@@ -111,7 +111,7 @@ export const Products = [
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/a05s2.png?alt=media&token=f75aaf1e-a72f-4802-9dda-f6c4edda12ad",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic3.png?alt=media&token=cbc1c71f-bf25-4029-8d5a-31d025a957d6",
       },
     ],
     daily: 142,
@@ -143,7 +143,7 @@ export const Products = [
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/a05s2.png?alt=media&token=f75aaf1e-a72f-4802-9dda-f6c4edda12ad",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic3.png?alt=media&token=cbc1c71f-bf25-4029-8d5a-31d025a957d6",
       },
     ],
     daily: 151,
@@ -175,7 +175,7 @@ export const Products = [
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/A1s.png?alt=media&token=09b157a7-d546-46b7-9403-266b25f5496e",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic3.png?alt=media&token=cbc1c71f-bf25-4029-8d5a-31d025a957d6",
       },
     ],
     daily: 164,
@@ -207,7 +207,7 @@ export const Products = [
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/A1s.png?alt=media&token=09b157a7-d546-46b7-9403-266b25f5496e",
+          "https://firebasestorage.googleapis.com/v0/b/myimages-10f37.appspot.com/o/pic3.png?alt=media&token=cbc1c71f-bf25-4029-8d5a-31d025a957d6",
       },
     ],
     daily: 168,

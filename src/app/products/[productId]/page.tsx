@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation"; // Import useParams from "next/router" instead of "next/navigation"
 import { Products } from "../../../../utils/Products";
-import { Button, Rating } from "@mui/material";
+import { Button, Rating, colors } from "@mui/material";
 import Container from "@mui/material/Container";
 
 import { useAppDispatch } from "../../../../utils/reduxstore/hooks";
@@ -45,11 +45,12 @@ const ProductDetails = () => {
   }, [productId]);
 
   return (
+    <div style={{   backgroundColor: "white",}}>
     <Container>
       <div
         style={{
-          height: "100vh",
-          paddingTop: "10rem",
+  
+          paddingTop: "12rem",
           paddingBottom: "10rem",
           marginBottom: "10rem",
         }}
@@ -61,6 +62,19 @@ const ProductDetails = () => {
                 <h2 className="text-3xl font-medium text-slate-700">
                   {product.name}
                 </h2>
+                <div>
+                  {product.images && (
+                    <div style={{ width: "20vh" }}>
+                      <Image
+                        src={product.images[0].image}
+                        alt={product.description}
+                        width={200}
+                        height={200}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  )}
+                </div>
                 <div className="flex items-center text-slate-700">
                   <Rating value={4} readOnly />
                   <h1 className="text-3xl font-medium text-slate-700">
@@ -105,7 +119,7 @@ const ProductDetails = () => {
                   </div>
                 </div>
                 <div>
-                  <Button
+                  {/* <Button
                     onClick={() => {
                       setCount(count + 1);
                     }}
@@ -119,9 +133,10 @@ const ProductDetails = () => {
                     }}
                   >
                     -
-                  </Button>
+                  </Button> */}
                 </div>
-                <Button
+                <button
+                  className="btn btn-outline btn-primary"
                   onClick={() => {
                     dispatch(
                       addToCart({
@@ -135,29 +150,26 @@ const ProductDetails = () => {
                 >
                   {" "}
                   Add to Cart
-                </Button>
-                <Button>
-                  <a href="https://wa.me/+254707738434?text=Hello%20I%20am%20interested%20in%20${encodeURIComponent(product.description)}"></a>{" "}
-                  Hello
-                </Button>{" "}
-                <ReactWhatsapp
-                  element="webview"
-                  number="254-707-738-434"
-                  message={`Hi am interested in ${product.name} is it available`}
-                >
-                  send to whatsapp
-                </ReactWhatsapp>
+                </button>{" "}
+                <button className="btn btn-outline btn-secondary">
+                  <ReactWhatsapp
+                    element="webview"
+                    number="254-707-738-434"
+                    message={`Hi am interested in ${product.name} is it available?`}
+                  >
+                  fast buy whatsapp
+                  </ReactWhatsapp>
+                </button>
               </div>
               <div>
-                IMAGES
                 <div>
                   {product.images && (
-                    <div style={{ width: "50vh" }}>
+                    <div style={{ width: "40vh",}}>
                       <Image
                         src={product.images[0].image}
                         alt={product.description}
-                        width={679}
-                        height={679}
+                        width={100}
+                        height={100}
                         className="w-full h-full object-contain"
                       />
                     </div>
@@ -171,6 +183,7 @@ const ProductDetails = () => {
         )}
       </div>
     </Container>
+    </div>
   );
 };
 

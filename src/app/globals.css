@@ -23,7 +23,7 @@ body {
       transparent,
       rgb(var(--background-end-rgb))
     ) */
-    background: yellow;
+    background: rgb(206, 206, 206);
     /* rgb(var(--background-start-rgb)); */
     /* background: linear-gradient(
       245.59deg,
@@ -38,4 +38,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  #upper-nav h1{
+    font-size: 2rem;
+    }
 }
